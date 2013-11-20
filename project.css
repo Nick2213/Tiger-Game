@@ -1,0 +1,22 @@
+h1.pos_left
+{
+position:relative;
+left:-5000px;
+}
+h1.pos_right
+{
+position:relative;
+left:20px;
+}
+
+
+button{
+    height:150px; 
+    width:200px; 
+    margin: 50px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+     font-size: 300%;
+}
+
