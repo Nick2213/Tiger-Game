@@ -6,17 +6,28 @@
   <link rel="stylesheet" type="text/css" href="project.css">
   </head>
   
-  <body style= color="blue" id='StartScreen'>
-  <h1 style= text-align:center> Final Project </h1>
+<!--this is the start screen divs -->
+  <div id='StartScreen'>
+        <body style= "background-color:green">
+          <h1 style= "text-align:center"> Tiger Game </h1>
 
-  <div id="outputDiv">
-    <button value="Start Game" onclick="startgame()" style= button-align:center> Start Game
-    </button>
-      
-
-
-
-
-  </div>
+     <div>
+          <button id='startgamebutton' value="Start Game" onclick="startgame()" style= "button-align:center"> Start Game
+           </button>
+      </div>
   </body>
+  </div>
+<!--this is the character Creation Div-->
+  <div id="CharCreationScreen" style="display:none">
+    
+    <h1 style= "text-align:center" font color="orange" > Create Your Tiger </h1>
+   
+    <button id="malebutton" value="Male" Onclick="maletiger()" style= "button-align:center"> Male </button>
+    
+    <button id= "femalebutton" value="Female" Onclick="femaletiger()" style= "button-align:center"> Female </button>
+  
+  
+  </div
+   
+  
 </html>
